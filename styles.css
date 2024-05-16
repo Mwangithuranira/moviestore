@@ -1,0 +1,137 @@
+body{
+    background-image: url("./assets/theatre.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+h1,p {
+    color:black;
+    font-style:oblique;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+}
+
+#wrapper {
+    background-color:transparent;
+    width: 50%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+#action{
+    background-color: rgb(192, 19, 19);;
+    display: flex;
+    width:200px;
+    height:100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100px;
+    border-bottom: 10px;
+    border-right ;
+}
+
+  h2{
+    text-align: center;
+    background-color:rgb(194, 56, 6);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+#mymovies {
+    display: flex;
+    background-color: rgba(230, 21, 21, 0.767);
+    background-size: 100%;
+     align-items: center;
+     text-align: center;
+    padding: 10px 0;
+}
+
+
+#movies {
+    margin: 30px;
+}
+
+#movies ul {
+    list-style: none;
+    padding: 0;
+}
+
+#movies li {
+    border-left: 5px solid #ddd;
+    padding: 20px;
+    margin: 20px 10px;
+}
+#movies li:hover {
+    border-color:green;
+}
+
+.button {
+    float: right;
+    background: orangered;
+    color:whitesmoke;
+    
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button:hover {
+    background:green;
+}
+
+
+#form {
+    width: 400px;
+    margin: 0 auto;
+}
+#form input {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid wheat;
+    box-sizing: border-box;
+    width: 250px;
+    float: left;
+    clear: both;
+}
+.name{
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    font-size: large;
+}
+#button {
+    border: 1px solid green;
+    background: green;
+    padding: 10px 20px;
+    font-size: 14px;
+    display: inline-block;
+    width: 100px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    border-left: 0;
+    color: white;
+    margin: 20px 0;
+    float: right;
+}
+
+#button:hover {
+    background: red;
+}
+
+#form:after{
+    content: "";
+    display : block;
+    clear: both;
+}
+#form label{
+   line-height: 53px;
+}
+
