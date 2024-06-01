@@ -14,11 +14,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // add movies
 
-    form.addEventListener('submit', (e) => {
+    addform.addEventListener('submit', (e) => {
         e.preventDefault();
 
         //create elements
-        const value = addform.querySelector('input[type="text"]').value;
+        const value = document.getElementById('text').value;
         const li = document.createElement('li');
         const movieName = document.createElement('span');
         const deleteBtn = document.createElement('span');
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         li.appendChild(deleteBtn);
         list.appendChild(li);
         //clear inputs
-        addform.querySelector('input[type="text"]').value = '';
+        document.getElementById('text').value = '';
 
     })
 })
